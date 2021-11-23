@@ -1,7 +1,7 @@
 [pyrogram]
 api_id = 9723545
 api_hash = 37f4a3bfee76addb4d2e0a5916f9e71e
-[bot]
+[bot] = @Etirafm_bot
 token = 2112340869:AAGKv_hf4VVr9qbJd00hsZZ-WxajOHO-rUc
 admin_group = -1001473932437
 dest_chan = -1001700646737
