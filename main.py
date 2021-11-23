@@ -59,7 +59,7 @@ async def review_callback_handler(_, cb: CallbackQuery):
 async def approve_callback_handler(_, cb: CallbackQuery):
     await cb.message.reply_to_message.copy(dest_chan)
     await cb.edit_message_reply_markup()
-    await cb.answer("Confession has been posted!", show_alert=True)
+    await cb.answer("Confession has beenn posted!", show_alert=True)
 
 
 @bot.on_message(filters.reply & filters.chat(admin_group))
