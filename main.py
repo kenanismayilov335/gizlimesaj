@@ -14,7 +14,7 @@ configuration_file = "working_dir/config.ini"
 config = configparser.ConfigParser()
 config.read(configuration_file)
 
-token = config.get("2112340869:AAGKv_hf4VVr9qbJd00hsZZ-WxajOHO-rUc", "token")
+token = config.get("2112340869", "AAGKv_hf4VVr9qbJd00hsZZ-WxajOHO-rUc")
 admin_group = int(config.get("bot", "admin_group"))
 dest_chan = int(config.get("bot", "dest_chan"))
 
